@@ -1,0 +1,34 @@
+# Secrets — NEVER commit these
+.env
+*.env
+credentials.json
+token.json
+token.pickle
+*_credentials.json
+session/
+whatsapp_session/
+
+# Python
+__pycache__/
+*.py[oc]
+.venv
+build/
+dist/
+wheels/
+*.egg-info
+
+# Runtime vault folders (generated at runtime, not code)
+obsidian_vault/Needs_Action/*.md
+obsidian_vault/Done/*.md
+obsidian_vault/Logs/*.json
+obsidian_vault/Inbox/*.md
+obsidian_vault/Plans/*.md
+obsidian_vault/Pending_Approval/*.md
+obsidian_vault/Approved/*.md
+obsidian_vault/Rejected/*.md
+
+# Obsidian internals
+obsidian_vault/.obsidian/workspace.json
+obsidian_vault/.obsidian/workspace-mobile.json
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
