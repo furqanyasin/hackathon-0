@@ -3,7 +3,8 @@
     "allow": [
       "Read(//d/AI/hackathon-0/**)",
       "Read(//d/AI/hackathon-0/obsidian_vault/**)",
-      "Bash(uv run:*)"
+      "Bash(uv run:*)",
+      "Bash(uv add:*)"
     ]
   }
 }
